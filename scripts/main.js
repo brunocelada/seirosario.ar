@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const enlaces = [
       { href: 'index.html', text: 'Inicio', class: 'actual-page' },
       { href: 'creditos.html', text: 'Mis Créditos' },
-      { href: 'calendario.html', text: 'Calendario' },
       { href: 'contactanos.html', text: 'Contactanos' }
     ];
     enlaces.forEach(link => {
