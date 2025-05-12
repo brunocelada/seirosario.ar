@@ -1,3 +1,9 @@
+// Cargar el archivo CSS externo
+const link = document.createElement('link');
+link.rel = 'stylesheet';
+link.href = 'https://brunocelada.github.io/seirosario.ar/styles/style.css';  // Ruta a tu CSS externo
+document.head.appendChild(link);
+
 // index.html pasado a main.js
 document.addEventListener('DOMContentLoaded', () => {
     const app = document.getElementById('app') || document.body;
