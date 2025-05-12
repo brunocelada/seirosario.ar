@@ -1,7 +1,7 @@
 // Cargar el archivo CSS externo
 const link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = 'https://github.com/brunocelada/seirosario.ar/main/styles/style.css';
+link.href = 'https://cdn.jsdelivr.net/gh/brunocelada/seirosario.ar@main/styles/style.css';
 document.head.appendChild(link);
 
 // index.html pasado a main.js
