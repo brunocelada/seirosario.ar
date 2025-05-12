@@ -1,12 +1,14 @@
-// Cargar el archivo CSS externo
-const link = document.createElement('link');
-link.rel = 'stylesheet';
-link.href = 'https://github.com/brunocelada/seirosario.ar/blob/main/styles/style.css';  // Ruta a tu CSS externo
-document.head.appendChild(link);
+
 
 // index.html pasado a main.js
 document.addEventListener('DOMContentLoaded', () => {
     const app = document.getElementById('app') || document.body;
+
+    // Cargar el archivo CSS externo
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = 'https://github.com/brunocelada/seirosario.ar/blob/main/styles/style.css';
+    document.head.appendChild(link);
   
     // HEADER
     const header = document.createElement('header');
